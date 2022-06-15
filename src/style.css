@@ -40,6 +40,12 @@ h2 {
   margin: 10px;
   border-style: ridge;
   border-color: #d0c5de;
+  font-size: 20px;
+  transition: all 200ms ease;
+}
+
+.points:hover {
+  background-color: rgba(191, 182, 232, 0.6);
 }
 
 .art {
@@ -85,7 +91,7 @@ p {
   font-family: "Gill Sans", sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 a {
