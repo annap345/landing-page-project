@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(177, 173, 219) 11.2%,
+    rgb(245, 226, 226) 91.1%
+  );
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: -2px 26px 20px rgba(177, 173, 219, 1);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: #b1addb;
+}
+
+.info {
+  text-align: center;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif;
+  list-style: none;
+  margin: 25px;
+}
+
+.points {
+  margin: 10px;
+  border-style: ridge;
+  border-color: #d0c5de;
+}
+
+.art {
+  position: relative;
+  width: 29%;
+  padding-right: 30px;
+  padding-left: 17px;
+  border-radius: 15%;
+  transition: all 200ms ease;
+}
+
+.art:hover {
+  background-color: rgba(163, 147, 235, 60%);
+}
+
+hr {
+  color: #5e63b6;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Gill Sans", sans-serif;
+  background-color: #d0c5de;
+  box-shadow: -2px 26px 20px rgba(177, 173, 219, 1);
+  border-radius: 50px;
+  border-color: #b1addb;
+  font-size: 20px;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #5e63b6;
+}
+
+p {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+a {
+  color: #443ec2;
+  text-decoration: none;
+}
