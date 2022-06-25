@@ -7,8 +7,9 @@ body {
 }
 
 .avatar {
-  display: block;
+  display: flex;
   margin: 0 auto;
+  margin-top: 15px;
   width: 100px;
   border-radius: 50%;
   box-shadow: -2px 26px 20px rgba(177, 173, 219, 1);
@@ -50,11 +51,12 @@ h2 {
 
 .art {
   position: relative;
-  width: 29%;
+  max-width: 50%;
   padding-right: 30px;
-  padding-left: 17px;
+  padding-left: 30px;
   border-radius: 15%;
   transition: all 200ms ease;
+  padding: 15px;
 }
 
 .art:hover {
@@ -65,16 +67,14 @@ hr {
   color: #5e63b6;
 }
 
-button {
-  display: block;
+div button {
+  display: flex;
+  padding: 15px;
   margin: 0 auto;
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  border-radius: 50px;
   font-family: "Gill Sans", sans-serif;
   background-color: #d0c5de;
   box-shadow: -2px 26px 20px rgba(177, 173, 219, 1);
-  border-radius: 50px;
   border-color: #b1addb;
   font-size: 20px;
   transition: all 200ms ease;
@@ -94,7 +94,7 @@ p {
   font-size: 20px;
 }
 
-a {
+p a {
   color: #443ec2;
   text-decoration: none;
 }
